@@ -19,7 +19,7 @@ This repository gives all code that was used to produce figures found in the pap
 - `requirements.txt`: Packages requirements for producing the figures.
 
 ## Data
-Data can be downloaded here: https://doi.org/10.5281/zenodo.21276650. Data **must** be stored at the root directory (i.e., under `XXX/`)
+Data can be download here: https://doi.org/10.5281/zenodo.21276650. Data **must** be stored at the root directory.
 
 ## Installation
 ```sh
