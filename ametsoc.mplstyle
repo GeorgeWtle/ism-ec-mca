@@ -1,0 +1,26 @@
+# --- Text rendering ---
+text.usetex : True
+
+# --- LaTeX preamble: match ametsocV6.1 ---
+text.latex.preamble : \usepackage{newtxtext} \usepackage{newtxmath}
+
+# --- Font setup ---
+font.family : serif
+font.size : 9.85
+
+axes.labelsize : 9.85
+axes.titlesize : 9.85
+
+xtick.labelsize : 7.0
+ytick.labelsize : 7.0
+
+legend.fontsize : 9.0
+
+# --- Lines & markers ---
+lines.linewidth : 1.0
+lines.markersize : 4
+
+# --- Figure defaults ---
+figure.dpi : 300
+savefig.dpi : 300
+savefig.bbox : tight
