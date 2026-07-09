@@ -32,7 +32,7 @@ pip install -r requirements.txt
 **Activate the virtual environment.** All `fig*.py` files can be computed independently from the root directory to produce associated figure.
 
 ## Citation
-[*to be determined*]
+[![DOI](https://zenodo.org/badge/1294918711.svg)](https://doi.org/10.5281/zenodo.21276455)
 
 ## License
 MIT License (see `LICENSE` file).
