@@ -27,7 +27,7 @@ pip install -r requirements.txt
 [*to be determined*]
 
 ## License
-[*to be determined*]
+MIT License (see `LICENSE` file).
 
 ## Contact
 George Whittle, george.whittle@meteo.fr, george.whittle@locean.ipsl.fr
