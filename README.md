@@ -2,15 +2,16 @@
 
 Code accompanying: [*exact citation to be determined*]
 
-## Overview
-This repository gives all code that was used to produce figures found in the paper. Data used can be found [*to be determined*] and should be download to reproduce the figures.
-
 Authors: George Whittle [1, 2], Hervé Douville [1], Pascal Terray [2]
+
 Corresponding author: George Whittle, george.whittle@meteo.fr, george.whittle@locean.ipsl.fr
 
 [1]: Centre National de Recherches Météorologiques, Université de Toulouse, CNRS, Météo-France, Toulouse, France
 
 [2]: Laboratoire d’Océanographie et du Climat: Expérimentations et Approches Numériques, Institut Pierre-Simon Laplace, Sorbonne Université/CNRS/IRD/MNHN, Paris, France
+
+## Overview
+This repository gives all code that was used to produce figures found in the paper. Data used can be found [*to be determined*] and should be download to reproduce the figures.
 
 ## Repository structure
 - `src/`: Contains all code for producing figures as well as needed utilities.
