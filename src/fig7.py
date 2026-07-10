@@ -120,6 +120,17 @@ for m, m_lab in enumerate(["1st", "2nd"]) :
         zorder = -1
     )
 
+    # Show MIROC6 spread on y-axis
+    axs[m].fill_between(
+        x = [-xmax, xmax],
+        y1 = PC_b_MIROC6.mean(dim = "run") * -1 - PC_b_MIROC6.std(dim = "run"),
+        y2 = PC_b_MIROC6.mean(dim = "run") * -1 + PC_b_MIROC6.std(dim = "run"),
+        color = colors["red"][6],
+        alpha = 0.2,
+        lw = 0,
+        zorder = -1
+    )
+
 plt.subplots_adjust(hspace = 0.4)
 
 # Legend

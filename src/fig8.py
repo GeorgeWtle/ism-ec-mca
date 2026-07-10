@@ -249,6 +249,16 @@ for i in [2, 3] :
         zorder = -51
     )
 
+axs[2].fill_between(
+    x = [-10, 10],
+    y1 = PC_b_MIROC6_0.mean(dim = "run")*-1 - PC_b_MIROC6_0.std(dim = "run"),
+    y2 = PC_b_MIROC6_0.mean(dim = "run")*-1 + PC_b_MIROC6_0.std(dim = "run"),
+    color = colors["red"][6],
+    alpha = 0.2,
+    lw = 0,
+    zorder = -51
+)
+
 axs[3].hlines([PC_a_obs_0.isel(obs = -1) * -1], xmin = -4, xmax = 4, colors = colors["green"][8], zorder = -50, lw = 0.8)
 axs[3].fill_between(
     x = [-10, 10],
