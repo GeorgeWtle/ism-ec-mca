@@ -21,7 +21,7 @@ no_out = np.where(((PC["b"].isel(mode = 0) * -1) <= 2).values)[0]
 out = np.where(((PC["b"].isel(mode = 0) * -1) > 2).values)[0]
 
 X_MIROC6 = crop(pr_trend_JJAS_MIROC6 , box = box_X)
-Y_MIROC6 = crop(pr_change_JJAS_MIROC6 , box = box_X)
+Y_MIROC6 = crop(pr_change_JJAS_MIROC6 , box = box_Y)
 
 pr_trend_obs_JJAS_list = [
     pr_trend_ERA5_JJAS,
