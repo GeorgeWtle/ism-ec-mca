@@ -2,5 +2,6 @@
 data
 scratchu
 __pycache__
+figures/old/*
 *.pyc
 *.zip
