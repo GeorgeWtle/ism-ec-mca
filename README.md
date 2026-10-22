@@ -23,13 +23,13 @@ Data can be download here: https://doi.org/10.5281/zenodo.21276650. Data **must*
 
 ## Installation
 ```sh
-python -m venv .venv
+python3.12 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
 ## Reproducing the results
-**Activate the virtual environment.** All `fig*.py` files can be computed independently from the root directory to produce associated figure.
+**Activate the virtual environment.** All `fig*.py` files **have to be computed independently from the root directory** to produce associated figure.
 
 ## Citation
 
