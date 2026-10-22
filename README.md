@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ```
 
 ## Reproducing the results
-**Activate the virtual environment.** All `fig*.py` files **have to be computed independently from the root directory** to produce associated figure.
+**Activate the virtual environment.** All `fig*.py` files **have to be computed independently from the root directory** to produce associated figure (e.g., in `ism-ec-mca/` run `python3 src/fig1.py` for production of `fig1.pdf`).
 
 ## Citation
 
