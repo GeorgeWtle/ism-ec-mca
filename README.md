@@ -33,7 +33,8 @@ pip install -r requirements.txt
 
 ## Citation
 
-https://doi.org/10.5281/zenodo.21276455
+Paper: https://doi.org/10.1175/JCLI-D-26-0153.1
+Zenodo: https://doi.org/10.5281/zenodo.21276455
 
 ## License
 MIT License (see `LICENSE` file).
