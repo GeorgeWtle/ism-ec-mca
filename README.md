@@ -1,6 +1,6 @@
 # Observational constraints on global climate projections: An original method applied to changes in Indian summer monsoon rainfall - Code Repository
 
-Code accompanying: [*exact citation to be determined*]
+Code accompanying: Whittle, G., H. Douville, and P. Terray, 2026: Observational constraints on global climate projections: An original method applied to changes in Indian summer monsoon rainfall. J. Climate, , e260153, [https://doi.org/10.1175/JCLI-D-26-0153.1](https://doi.org/10.1175/JCLI-D-26-0153.1), in press.
 
 Authors: George Whittle [1, 2], Hervé Douville [1], Pascal Terray [2]
 
